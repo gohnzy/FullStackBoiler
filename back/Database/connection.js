@@ -4,8 +4,8 @@ const pool = new Pool({
 	user: 'gohnzy',
 	host: 'localhost',
 	database: 'FullStackBoiler',
-	password: '123456789',
-	port: 2000,
+	password: 'gohnzy1234',
+	port: 1112,
 });
 
 const query = (text, params) => pool.query(text, params);
